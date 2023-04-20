@@ -16,7 +16,9 @@ body {
   background-color:var(--background-color-site);
   }
 
- .list{list-style: none;}
+ .list{list-style: none;
+      padding: 0;
+    margin: 0;}
 
 .link {
   text-decoration: none;
@@ -68,15 +70,19 @@ color: var(--primary-color);
 /* main */
 /* hero */
 .hero{
+  text-align: center;
 background-color:var(--background-color-hero-section);
 }
 .hero-name{
 font-weight: 700;
 font-size: 56px;
 line-height:1.07;
-text-align: center;
 letter-spacing: 0.02em;
 color: var(--background-color-site);
+margin-top: 0;
+margin-bottom: 48px;
+background-color: tomato;
+
 }
 .modal-button{
 font-family:var(--primary-font);
@@ -87,12 +93,19 @@ letter-spacing: 0.04em;
 color: var(--background-color-site);
 background-color: var(--buttom-portfolio-text-color);
 cursor: pointer;
+border-radius: 4px;
+padding: 16px 32px;
 } 
 .modal-button:hover,
 .modal-button:focus{
 background-color: var(--accent-color);
 }
 /* components */
+.conteiner{
+  width: 1158;
+  padding-left: 12;
+  padding-right: 12;
+}
 .subtitle-second{
  font-weight: 700;
 font-size: 36px;
@@ -141,6 +154,8 @@ letter-spacing: 0.04em;
 cursor: pointer;
 color: var(--buttom-portfolio-text-color);
 background-color: var(--buttom-portfolio-background-color);
+border-radius: 4px;
+padding: 12px 24px;
 }
 .menu-button-item:hover,
 .menu-button-item:focus{
