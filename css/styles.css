@@ -101,7 +101,7 @@ padding: 16px 32px;
 background-color: var(--accent-color);
 }
 /* components */
-*{box-sizing: border-box;}
+
 
 .conteiner{
   width: 1158;
