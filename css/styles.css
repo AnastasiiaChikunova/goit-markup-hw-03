@@ -39,9 +39,8 @@ img {
 .link {
   text-decoration: none;
 }
-/* components */
+/********************************************************** components ****************************************************/
 
-/* *************************************************************************************************************** */
 .card-set-menu {
   display: flex;
   flex-wrap: wrap;
@@ -50,7 +49,7 @@ img {
 .card-set-item {
   flex-basis: calc((100%- var(--indent) * var(--item)-1) / (var(--item)));
 }
-/* ***************************************************************************************************************** */
+
 .container {
   width: 1158px;
   padding-right: 15px;
@@ -82,6 +81,7 @@ img {
   letter-spacing: 0.02em;
   color: var(--logo-color-part-two-top);
   margin-bottom: 8px;
+  text-align: center;
 }
 .description {
   font-weight: 400;
@@ -89,11 +89,20 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--primary-color);
+  text-align: center;
 }
-/* header */
+.deskription-cards {
+  padding: top 32px;
+  padding: right 16px;
+  padding: bottom 32px;
+  padding: left 16px;
+}
+/* ********************************************************header ******************************************************/
 .header-container {
   display: flex;
   align-items: center;
+  border-bottom: 1px solid #e7e9fc;
+  padding: 24px, 0px;
 }
 
 .logo {
@@ -110,18 +119,18 @@ img {
 .logo-name-two-part {
   color: var(--logo-color-part-two-top);
 }
-/* //////////////////////////////////////////////////////// */
 
 .logo {
   display: flex;
   align-items: center;
-  margin-right: 56px;
+  margin-right: 76px;
 }
-/* ///////////////////////////////////////////////////////////// */
+
 .navigation {
   display: flex;
   align-items: center;
   margin-right: 322px;
+  padding: 24px, 0;
 }
 .menu {
   display: flex;
@@ -142,9 +151,10 @@ img {
 .menu-item:focus {
   color: var(--accent-color);
 }
-/* address */
+
 .address {
   font-style: normal;
+  padding: 24px, 0;
 }
 
 .address-menu-item {
@@ -168,11 +178,12 @@ img {
   align-items: center;
 }
 
-/* main */
-/* hero */
+/* **********************************************************main *****************************************************/
+/* **********************************************************hero**************************************************** */
 .hero {
   text-align: center;
   background-color: var(--background-color-hero-section);
+  padding: 180px, 0;
 }
 .hero-name {
   font-weight: 700;
@@ -182,7 +193,9 @@ img {
   color: var(--background-color-site);
   margin-top: 0;
   margin-bottom: 48px;
-  margin-bottom: 48px;
+  max-width: 496px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .modal-button {
   font-family: var(--primary-font);
@@ -197,12 +210,17 @@ img {
   min-height: 56px;
   border-radius: 4px;
   padding: 16px 32px;
+  height: 56px;
+  border: none;
 }
 .modal-button:hover,
 .modal-button:focus {
   background-color: var(--accent-color);
 }
 /****************************************************section two***********************************************/
+.characteristics {
+  padding: 120px, 0;
+}
 .menu-characteristics {
   display: flex;
   align-items: center;
@@ -217,9 +235,10 @@ img {
   align-items: center;
   gap: 24px;
 }
-/* section four */
+/* ***********************************************section four *********************************************************/
 .our-team {
   background-color: var(--logo-color-part-two-down);
+  padding: 120px, 0;
 }
 .our-team-menu {
   display: flex;
@@ -227,14 +246,16 @@ img {
 }
 .our-team-menu-item {
   width: 264px;
+  border-radius: 0px 0px 4px 4px;
 }
 .our-team-img {
   margin-bottom: 32px;
 }
 
-/* footer */
+/* *********************************************************footer *****************************************************/
 .footer {
   background-color: var(--background-color-hero-section);
+  padding: 100px, 0;
 }
 .description-footer {
   color: var(--logo-color-part-two-down);
@@ -246,8 +267,11 @@ img {
 .our-team-menu-item {
   background-color: var(--background-color-site);
 }
-/* page portfolio */
-/* main  */
+.logo-footer {
+  margin-bottom: 16px;
+}
+////////////////////////////////////////////////////////////page portfolio/////////////////////////////////////////// /
+/****************************************** main ***************************************************************** */
 .menu-button {
   display: flex;
   align-items: center;
@@ -282,16 +306,8 @@ img {
   line-height: 24px;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  text-align: center;
 }
 .portfolio-menu {
   gap: 48px, 24px;
-}
-.logo-footer {
-  margin-bottom: 16px;
-}
-.deskription-cards {
-  padding: top 32px;
-  padding: right 16px;
-  padding: bottom 32px;
-  padding: left 16px;
 }
