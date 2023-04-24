@@ -274,9 +274,9 @@ img {
   margin-bottom: 16px;
   display: inline-block;
 }
-////////////////////////////////////////////////////////////page portfolio/////////////////////////////////////////// /
+/* *****************************************************page portfilio**************************************** */
 /****************************************** main ***************************************************************** */
-.what-we-can-to-do {
+.only-one{
   padding-top: 96px;
   padding-bottom: 120px;
 }
@@ -287,8 +287,7 @@ img {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 72px;
-  gap: 24px;
-}
+  gap: 24px; }
 .menu-button-item {
   font-family: var(--primary-font);
   font-weight: 500;
@@ -302,11 +301,14 @@ img {
   border-radius: 4px;
   padding: 12px 24px;
   border: 1px solid var(--border-buttoms-color);
+  margin-bottom: 48px;
 }
+
 .menu-button-item:hover,
 .menu-button-item:focus {
   color: var(--background-color-site);
   background: var(--accent-color);
+  border: 1px solid var(-border-buttoms-color);
 }
 .subtitle-two {
   font-weight: 500;
@@ -316,6 +318,4 @@ img {
   color: #2e2f42;
   text-align: center;
 }
-.portfolio-menu {
-  gap: 48px, 24px;
-}
+
