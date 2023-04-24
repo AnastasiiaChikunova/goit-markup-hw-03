@@ -93,6 +93,11 @@ img {
   padding-right: 16px;
 }
 /* ********************************************************header ******************************************************/
+.header{
+  border-bottom: 1px var(--border-buttoms-color);
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
 .header-container {
   display: flex;
   align-items: center;
@@ -100,7 +105,7 @@ img {
 .header-container {
   display: flex;
   align-items: center;
-  border-bottom: 1px var(--border-buttoms-color);
+  
 }
 
 .logo {
@@ -113,8 +118,7 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--logo-color-part-one);
-  padding-top: 24px;
-  padding-bottom: 24px;
+  
 }
 .logo-name-two-part {
   color: var(--logo-color-part-two-top);
@@ -135,8 +139,7 @@ img {
   display: flex;
   align-items: center;
   gap: 40px;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  
 }
 .menu-item {
   font-weight: 500;
@@ -231,6 +234,9 @@ img {
   width: 264px;
 }
 /**************************** section thre*************************************************************/
+.what-we-are-doing{
+  padding-bottom: 120px;
+}
 .menu-what-we-are-doing {
   display: flex;
   align-items: center;
@@ -310,7 +316,7 @@ padding-bottom: 67px;}
 .menu-button-item:focus {
   color: var(--background-color-site);
   background: var(--accent-color);
-  border: 1px solid var(-border-buttoms-color);
+  border: 1px solid var(--border-buttoms-color)
 }
 .subtitle-two {
   font-weight: 500;
@@ -325,5 +331,9 @@ padding-bottom: 67px;}
 .portfolio-item{
   gap: 24px;
   margin-bottom: 48px;
+  
   border-top: none;
+    }
+    .portfolio-cards{
+      border: 1px solid #e7e9fc;
     }
