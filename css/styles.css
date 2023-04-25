@@ -88,15 +88,13 @@ img {
 }
 
 /* ********************************************************header ******************************************************/
-.header{
-  border-bottom: 1px var(--border-buttoms-color);
-  padding-top: 24px;
-  padding-bottom: 24px;
-  
-}
+ 
 .header-container {
   display: flex;
   align-items: center;
+   border-bottom: 1px var(--border-buttoms-color);
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .header-container {
   display: flex;
