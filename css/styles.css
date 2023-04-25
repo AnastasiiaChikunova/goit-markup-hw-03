@@ -129,8 +129,7 @@ border-bottom: 1px solid #E7E9FC;
   display: flex;
   align-items: center;
   gap: 40px;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  
   
   
 }
@@ -141,6 +140,8 @@ border-bottom: 1px solid #E7E9FC;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--background-color-hero-section);
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .menu-item:hover,
 .menu-item:focus {
