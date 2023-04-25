@@ -86,17 +86,13 @@ img {
   color: var(--primary-color);
   text-align: center;
 }
-.description-cards {
-  padding-top: 32px;
-  padding-bottom: 32px;
-  padding-left: 16px;
-  padding-right: 16px;
-}
+
 /* ********************************************************header ******************************************************/
 .header{
   border-bottom: 1px var(--border-buttoms-color);
   padding-top: 24px;
   padding-bottom: 24px;
+  
 }
 .header-container {
   display: flex;
@@ -259,7 +255,12 @@ img {
 .our-team-img {
   margin-bottom: 32px;
 }
-
+.description-cards {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
 /* *********************************************************footer *****************************************************/
 .footer {
   background-color: var(--background-color-hero-section);
@@ -310,13 +311,18 @@ padding-bottom: 67px;}
   padding: 12px 24px;
   border: 1px solid var(--border-buttoms-color);
   margin-bottom: 48px;
-}
+  }
+
+  .menu-button-item:nth-last-child(-n+3) {
+    margin-bottom: 0px
+  }
 
 .menu-button-item:hover,
 .menu-button-item:focus {
   color: var(--background-color-site);
   background: var(--accent-color);
   border: 1px solid var(--border-buttoms-color)
+  border: 1px solid transparent;
 }
 .subtitle-two {
   font-weight: 500;
@@ -335,5 +341,10 @@ padding-bottom: 67px;}
   border-top: none;
     }
     .portfolio-cards{
-      border: 1px solid #e7e9fc;
+      border: 1px var(--border-buttoms-color);
+      padding-top: 32px;
+      padding-bottom: 32px;
+      padding-left: 16px;
+      padding-right: 16px;
+      
     }
