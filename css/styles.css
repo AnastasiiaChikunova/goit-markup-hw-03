@@ -55,9 +55,7 @@ img {
   padding-right: 15px;
   padding-left: 15px;
   margin: 0 auto;
-  outline: 2px solid red;
-  outline-offset: 2px;
-}
+  }
 
 .subtitle-second {
   font-weight: 700;
@@ -339,10 +337,10 @@ padding-bottom: 67px;}
   border-top: none;
     }
     .portfolio-cards{
-      border: 1px var(--border-buttoms-color);
-      padding-top: 32px;
+            padding-top: 32px;
       padding-bottom: 32px;
       padding-left: 16px;
       padding-right: 16px;
+      border: 1px solid var(--border-buttoms-color);
       
     }
