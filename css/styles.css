@@ -122,14 +122,15 @@ border-bottom: 1px solid #E7E9FC;
   display: flex;
   align-items: center;
   margin-right: 322px;
+  padding-top: 24px;
+  padding-bottom: 24px;
  
 }
 .menu {
   display: flex;
   align-items: center;
   gap: 40px;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  
   
 }
 .menu-item {
@@ -341,5 +342,6 @@ padding-bottom: 67px;}
       padding-left: 16px;
       padding-right: 16px;
       border: 1px solid var(--border-buttoms-color);
+      border-top: none;
       
     }
