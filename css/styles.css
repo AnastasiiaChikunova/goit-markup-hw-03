@@ -305,6 +305,7 @@ border-bottom: 1px solid #E7E9FC;
   margin-left: auto;
   margin-right: auto;
   gap: 24px; 
+  margin-bottom: 72px;
 }
 .menu-button-item {
   font-family: var(--primary-font);
@@ -340,7 +341,9 @@ border-bottom: 1px solid #E7E9FC;
     margin-bottom: 8px;
 
 }
-
+.portfolio-menu{
+  row-gap: 48px;
+}
  .portfolio-item{
   
     border-top: none;      }
