@@ -74,7 +74,7 @@ img {
   letter-spacing: 0.02em;
   color: var(--logo-color-part-two-top);
   margin-bottom: 8px;
-  
+  text-align: center;
 }
 .description {
   font-weight: 400;
@@ -270,6 +270,9 @@ border-bottom: 1px solid #E7E9FC;
   padding-bottom: 32px;
   padding-left: 16px;
   padding-right: 16px;
+}
+.description-team{
+  text-align: center;
 }
 /* *********************************************************footer *****************************************************/
 .footer {
